@@ -305,7 +305,11 @@ figure figcaption {
   margin-bottom: 2em;
   font-size: 12px;
   text-transform: uppercase;
-  color: #cccccc;
+  color: #ffffff;
+}
+
+#colorlib-aside .position a {
+  color: #ffffff;
 }
 
 #colorlib-aside #colorlib-logo {
@@ -875,7 +879,7 @@ body.offcanvas .colorlib-nav-toggle {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Goudy Bookletter 1911", sans-serif;
-  background-color: #2c98f0;
+  background-color: #2a2a2a !important;
   color: #fff;
   position: relative;
   -webkit-box-shadow: none !important;
@@ -884,6 +888,13 @@ body.offcanvas .colorlib-nav-toggle {
   -o-box-shadow: none !important;
   box-shadow: none !important;
   margin-bottom: 0 !important;
+}
+
+.panel-heading a:hover,
+.panel-heading a:active,
+.panel-heading a:focus {
+  background-color: #2a2a2a !important;
+  color: #fff !important;
 }
 
 .panel {
@@ -934,9 +945,26 @@ body.offcanvas .colorlib-nav-toggle {
   transition: background 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
+.panel-heading a.collapsed:hover,
+.panel-heading a.collapsed:active,
+.panel-heading a.collapsed:focus,
+.panel-heading a.collapsed:visited {
+  background: #2a2a2a !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
 .panel-default:hover > .panel-heading a.collapsed {
   background: #2a2a2a;
   transform: translateX(5px);
+}
+
+.panel-default:active > .panel-heading a.collapsed,
+.panel-default:focus > .panel-heading a.collapsed,
+.panel-heading a.collapsed:active,
+.panel-heading a.collapsed:focus {
+  background: #2a2a2a !important;
+  color: #ffffff !important;
 }
 
 .panel-default:hover > .panel-heading a.collapsed:after {
