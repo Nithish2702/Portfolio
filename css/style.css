@@ -267,10 +267,14 @@ figure figcaption {
   position: fixed;
   overflow-y: auto;
   z-index: 1001;
-  background: #1a1a1a;
+  background: #1a1a1a !important;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+}
+
+#colorlib-aside .text-center {
+  background: transparent !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -667,9 +671,17 @@ body.offcanvas #colorlib-aside {
   -o-transform: translateX(0);
   transform: translateX(0);
   width: 300px;
-  background: #1a1a1a;
+  background: #1a1a1a !important;
   z-index: 999;
   position: fixed;
+}
+
+body.offcanvas #colorlib-aside * {
+  background-color: transparent;
+}
+
+body.offcanvas #colorlib-aside .text-center {
+  background: transparent !important;
 }
 
 body.offcanvas #colorlib-main,
