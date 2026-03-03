@@ -2303,14 +2303,14 @@ body.offcanvas .colorlib-nav-toggle {
 
 .colorlib-nav-toggle.active i::before,
 .colorlib-nav-toggle.active i::after {
-  color: #000; /* Set text color to white */
-  background-color: #000;
+  color: #fff; /* Set text color to white */
+  background-color: #fff;
 }
 
 .colorlib-nav-toggle.dark.active i::before,
 .colorlib-nav-toggle.dark.active i::after {
-  color: #000; /* Set text color to white */
-  background-color: #000;
+  color: #fff; /* Set text color to white */
+  background-color: #fff;
 }
 
 .colorlib-nav-toggle:hover,
@@ -2328,8 +2328,8 @@ body.offcanvas .colorlib-nav-toggle {
   *display: inline;
   width: 30px;
   height: 2px;
-  color: #000; /* Set text color to white */
-  background-color: #000;
+  color: #fff; /* Set text color to white */
+  background-color: #fff;
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
@@ -2343,8 +2343,8 @@ body.offcanvas .colorlib-nav-toggle {
   content: '';
   width: 30px;
   height: 2px;
-  color: #000; /* Set text color to white */
-  background-color: #000;
+  color: #fff; /* Set text color to white */
+  background-color: #fff;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
@@ -2354,8 +2354,8 @@ body.offcanvas .colorlib-nav-toggle {
 
 .colorlib-nav-toggle.dark i {
   position: relative;
-  color: #000; /* Set text color to white */
-  background-color: #000;
+  color: #fff; /* Set text color to white */
+  background-color: #fff;
   -webkit-transition: all .2s ease-out;
   -o-transition: all .2s ease-out;
   transition: all .2s ease-out;
@@ -2363,7 +2363,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .colorlib-nav-toggle.dark i::before,
 .colorlib-nav-toggle.dark i::after {
-    background-color: #000;
+    background-color: #fff;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
